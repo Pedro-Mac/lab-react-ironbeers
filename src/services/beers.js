@@ -21,3 +21,7 @@ export const loadRandomBeer = () => {
     return res.data[Math.floor(Math.random() * res.data.length)];
   });
 };
+
+// export const addNewBeer = () => {
+//   return instance.post('/new').then((res) => {});
+// };

@@ -39,7 +39,7 @@ class ListOfBeersView extends Component {
                 <h5>{item.name}</h5>
 
                 <p>{item.tagline}</p>
-                <p>{item.name}</p>
+                <p>{item.contributed_by}</p>
               </div>
             </Link>
           </>
